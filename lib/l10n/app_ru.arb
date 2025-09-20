@@ -1,0 +1,1355 @@
+{
+  "@@locale": "ru",
+  "general": "Общее",
+  "@general": {
+    "description": "Название секции Общее"
+  },
+  "language": "Язык",
+  "@language": {
+    "description": "Выбор языка"
+  },
+  "settings": "Настройки",
+  "@settings": {
+    "description": "Экран настроек"
+  },
+  "profile": "Профиль",
+  "@profile": {
+    "description": "Экран профиля"
+  },
+  "exit": "Выход",
+  "@exit": {
+    "description": "Кнопка выхода"
+  },
+  "dark_mode": "Тёмная тема",
+  "@dark_mode": {
+    "description": "Переключатель тёмной темы"
+  },
+  "about_developer": "О разработчике",
+  "@about_developer": {
+    "description": "Информация о разработчике"
+  },
+  "change_order": "Изменить порядок",
+  "@change_order": {
+    "description": "Изменить порядок элементов"
+  },
+  "add_task": "Добавить задачу",
+  "@add_task": {
+    "description": "Добавить новую задачу"
+  },
+  "task_options": "Настройки задачи",
+  "@task_options": {
+    "description": "Опции задачи"
+  },
+  "edit_task": "Редактировать задачу",
+  "@edit_task": {
+    "description": "Редактировать существующую задачу"
+  },
+  "delete_task": "Удалить задачу",
+  "@delete_task": {
+    "description": "Удалить задачу"
+  },
+  "cancel": "Отмена",
+  "@cancel": {
+    "description": "Кнопка отмены"
+  },
+  "save": "Сохранить",
+  "@save": {
+    "description": "Кнопка сохранения"
+  },
+  "edit_name": "Изменить имя",
+  "@edit_name": {
+    "description": "Редактировать имя"
+  },
+  "add_member": "Добавить участника",
+  "@add_member": {
+    "description": "Добавить участника к задаче"
+  },
+  "sort_items": "Сортировать элементы",
+  "@sort_items": {
+    "description": "Сортировать элементы"
+  },
+  "task_members": "Участники задачи",
+  "@task_members": {
+    "description": "Список участников задачи"
+  },
+  "close": "Закрыть",
+  "@close": {
+    "description": "Кнопка закрытия"
+  },
+  "admin": "Администратор",
+  "@admin": {
+    "description": "Роль администратора"
+  },
+  "editor": "Редактор",
+  "@editor": {
+    "description": "Роль редактора"
+  },
+  "user": "Пользователь",
+  "@user": {
+    "description": "Роль пользователя"
+  },
+  "select_user": "Выбрать пользователя",
+  "@select_user": {
+    "description": "Выбор пользователя"
+  },
+  "select_role": "Выбрать роль",
+  "@select_role": {
+    "description": "Выбор роли"
+  },
+  "about_role": "О роли",
+  "@about_role": {
+    "description": "Информация о ролях"
+  },
+  "add": "Добавить",
+  "@add": {
+    "description": "Кнопка добавления"
+  },
+  "okay": "Окей",
+  "@okay": {
+    "description": "Кнопка подтверждения"
+  },
+  "name": "Имя",
+  "@name": {
+    "description": "Поле имени"
+  },
+  "edit_profile": "Редактировать профиль",
+  "@edit_profile": {
+    "description": "Редактирование профиля"
+  },
+  "friends": "Друзья",
+  "@friends": {
+    "description": "Список друзей"
+  },
+  "surname": "Фамилия",
+  "@surname": {
+    "description": "Поле фамилии"
+  },
+  "select_avatar": "Выбрать аватар",
+  "@select_avatar": {
+    "description": "Выбор аватара"
+  },
+  "incoming_requests": "Входящие запросы",
+  "@incoming_requests": {
+    "description": "Список входящих запросов"
+  },
+  "outgoing_requests": "Исходящие запросы",
+  "@outgoing_requests": {
+    "description": "Список исходящих запросов"
+  },
+  "friends_email": "Email друга",
+  "@friends_email": {
+    "description": "Электронная почта друга"
+  },
+  "task_name": "Название",
+  "@task_name": {
+    "description": "Название задачи в проекте"
+  },
+  "authorLabel": "Автор: {name}",
+  "@authorLabel": {
+    "description": "Подпись с именем автора",
+    "placeholders": {
+      "name": {
+        "example": "Алексей"
+      }
+    }
+  },
+  "unknown": "Неизвестно",
+  "@unknown": {
+    "description": "Неизвестно"
+  },
+  "createdByMe": "Создано мной",
+  "@createdByMe": {
+    "description": "Текст для обозначения, что элемент создан текущим пользователем"
+  },
+  "yourTasksWillAppearHere": "Здесь будут ваши задачи",
+  "@yourTasksWillAppearHere": {
+    "description": "Сообщение, показывающее, что пока нет задач"
+  },
+  "exitFromTask": "Выйти из задачи",
+  "@exitFromTask": {
+    "description": "Кнопка или действие выхода пользователя из задачи"
+  },
+  "deleteTask": "Удалить задачу",
+  "@deleteTask": {
+    "description": "Кнопка или действие для удаления задачи"
+  },
+  "delete": "Удалить",
+  "@delete": {
+    "description": "удалить"
+  },
+  "confirmDeleteTask": "Вы уверены, что хотите удалить эту задачу?",
+  "@confirmDeleteTask": {
+    "description": "Подтверждение удаления задачи"
+  },
+  "confirmDeletion": "Подтвердите удаление",
+  "@confirmDeletion": {
+    "description": "Заголовок диалога подтверждения удаления"
+  },
+  "taskNameCannotBeEmpty": "Название задачи не может быть пустым",
+  "@taskNameCannotBeEmpty": {
+    "description": "Сообщение об ошибке, если пользователь оставил поле названия задачи пустым"
+  },
+  "newTaskName": "Новое название задачи",
+  "@newTaskName": {
+    "description": "Подсказка или заголовок для ввода нового названия задачи"
+  },
+  "selectLanguage": "Выберите язык",
+  "@selectLanguage": {
+    "description": "Заголовок или подпись для выбора языка"
+  },
+  "lastNameNotSpecified": "Фамилия не указана",
+  "@lastNameNotSpecified": {
+    "description": "Текст по умолчанию, если фамилия не указана у пользователя"
+  },
+  "firstNameNotSpecified": "Имя не указано",
+  "@firstNameNotSpecified": {
+    "description": "Текст по умолчанию, если имя пользователя не указано"
+  },
+  "errorSendingFriendRequest": "Ошибка отправки запроса в друзья: {error}",
+  "@errorSendingFriendRequest": {
+    "description": "Сообщение об ошибке при отправке запроса в друзья",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "TimeoutException",
+        "description": "Описание ошибки или текст исключения"
+      }
+    }
+  },
+  "errorWithDetails": "Ошибка: {error}",
+  "@errorWithDetails": {
+    "description": "Сообщение об ошибке с деталями",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Не удалось загрузить данные",
+        "description": "Описание или текст ошибки"
+      }
+    }
+  },
+  "friendRequestSent": "Заявка отправлена",
+  "@friendRequestSent": {
+    "description": "Сообщение о том, что заявка в друзья была успешно отправлена"
+  },
+  "friendRequestAlreadySentOrFriend": "Заявка уже отправлена или пользователь уже ваш друг",
+  "@friendRequestAlreadySentOrFriend": {
+    "description": "Сообщение, когда пользователь уже отправил заявку или уже является другом"
+  },
+  "userNotFound": "Пользователь не найден",
+  "@userNotFound": {
+    "description": "Сообщение об ошибке, когда пользователь по email не найден"
+  },
+  "needToLogin": "Необходимо войти в систему",
+  "@needToLogin": {
+    "description": "Сообщение, когда пользователь не авторизован и требуется войти в систему"
+  },
+  "emailCannotBeEmpty": "Email не может быть пустым",
+  "@emailCannotBeEmpty": {
+    "description": "Сообщение об ошибке, если пользователь не ввел email"
+  },
+  "send": "Отправить",
+  "@send": {
+    "description": "Кнопка для отправки формы или запроса"
+  },
+  "enterEmailHint": "Введите email",
+  "@enterEmailHint": {
+    "description": "Подсказка для ввода email в текстовом поле"
+  },
+  "addFriendTitle": "Добавить друга",
+  "@addFriendTitle": {
+    "description": "Заголовок окна добавления друга"
+  },
+  "errorWhileExiting": "Ошибка при выходе: {error}",
+  "@errorWhileExiting": {
+    "description": "Сообщение об ошибке, когда пользователь выходит из задачи.",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Timeout error",
+        "description": "Текст ошибки, который будет вставлен в сообщение."
+      }
+    }
+  },
+  "errorUpdatingProfile": "Ошибка обновления профиля: {error}",
+  "@errorUpdatingProfile": {
+    "description": "Сообщение об ошибке при обновлении профиля",
+    "placeholders": {
+      "error": {
+        "example": "Ошибка подключения к серверу"
+      }
+    }
+  },
+  "profileUpdateSuccess": "Профиль успешно обновлен",
+  "@profileUpdateSuccess": {
+    "description": "Сообщение при успешном обновлении профиля"
+  },
+  "avatarUploadError": "Ошибка загрузки аватара: {error}",
+  "@avatarUploadError": {
+    "description": "Ошибка при загрузке аватара",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Ошибка сети",
+        "description": "Описание ошибки при загрузке аватара"
+      }
+    }
+  },
+  "enterTextHint": "Введите текст...",
+  "@enterTextHint": {
+    "description": "Подсказка в текстовом поле для ввода текста"
+  },
+  "noTaskItems": "В задаче нет элементов",
+  "@noTaskItems": {
+    "description": "Текст для отображения, когда в задаче нет элементов"
+  },
+  "tapToAddFirstItem": "Нажмите '+', чтобы добавить первый элемент",
+  "@tapToAddFirstItem": {
+    "description": "Подсказка пользователю о добавлении первого элемента в задаче"
+  },
+  "noPermissionToAddItems": "У вас нет прав для добавления элементов",
+  "@noPermissionToAddItems": {
+    "description": "Сообщение пользователю, что у него нет прав добавлять элементы"
+  },
+  "saveError": "Ошибка сохранения: {error}",
+  "@saveError": {
+    "description": "Сообщение об ошибке при сохранении контента",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Таймаут сетевого запроса"
+      }
+    }
+  },
+  "roleChanged": "Ваша роль изменена на: {role}",
+  "@roleChanged": {
+    "description": "Сообщение после изменения роли пользователя",
+    "placeholders": {
+      "role": {
+        "example": "Редактор, Администратор, Пользователь"
+      }
+    }
+  },
+  "removedFromTask": "Вы были удалены из этой задачи",
+  "@removedFromTask": {
+    "description": "Сообщение при удалении пользователя из задачи"
+  },
+  "emptyNoteDeleted": "Пустая заметка удалена",
+  "@emptyNoteDeleted": {
+    "description": "Сообщение при удалении пустой заметки"
+  },
+  "errorSavingContent": "Ошибка сохранения содержимого: {error}",
+  "@errorSavingContent": {
+    "description": "Ошибка при сохранении содержимого элемента",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Network error"
+      }
+    }
+  },
+  "genericError": "Ошибка: {error}",
+  "@genericError": {
+    "description": "Универсальная ошибка с деталями",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Сетевая ошибка"
+      }
+    }
+  },
+  "itemOptionsTitle": "Параметры элемента",
+  "@itemOptionsTitle": {
+    "description": "Заголовок диалога с настройками элемента"
+  },
+  "itemTypeLabel": "Тип элемента:",
+  "@itemTypeLabel": {
+    "description": "Подпись для выбора типа элемента в диалоге параметров элемента"
+  },
+  "deadlineLabel": "Срок выполнения:",
+  "@deadlineLabel": {
+    "description": "Подпись для выбора дедлайна элемента в параметрах"
+  },
+  "notSet": "Не задан",
+  "@notSet": {
+    "description": "Текст, отображаемый, если дедлайн или другое значение не установлено"
+  },
+  "clearDeadline": "Очистить срок",
+  "@clearDeadline": {
+    "description": "Кнопка для удаления установленного дедлайна у элемента"
+  },
+  "confirmation": "Подтверждение",
+  "@confirmation": {
+    "description": "Заголовок для диалога подтверждения действия"
+  },
+  "deleteItemConfirmation": "Вы действительно хотите удалить этот элемент?",
+  "@deleteItemConfirmation": {
+    "description": "Сообщение подтверждения удаления элемента"
+  },
+  "deleteError": "Ошибка удаления: {error}",
+  "@deleteError": {
+    "description": "Ошибка при удалении элемента с деталями",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Ошибка сети"
+      }
+    }
+  },
+  "noDeadline": "Нет срока",
+  "@noDeadline": {
+    "description": "Отображается, когда у элемента задачи нет установленного срока"
+  },
+  "today": "Сегодня",
+  "@today": {
+    "description": "Отображается, когда срок задачи установлен на сегодня"
+  },
+  "tomorrow": "Завтра",
+  "@tomorrow": {
+    "description": "Отображается, когда срок задачи установлен на завтра"
+  },
+  "overdueWithDate": "Просрочено ({date})",
+  "@overdueWithDate": {
+    "description": "Отображается, если срок выполнения просрочен, с указанием даты",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "24.04.2025"
+      }
+    }
+  },
+  "invalidDate": "Некорректная дата",
+  "@invalidDate": {
+    "description": "Отображается, когда дата не может быть распознана или неверна"
+  },
+  "noAvailableItemTypes": "Нет доступных типов элементов",
+  "@noAvailableItemTypes": {
+    "description": "Отображается, когда нет доступных типов элементов для создания в задаче"
+  },
+  "selectItemType": "Выберите тип элемента",
+  "@selectItemType": {
+    "description": "Заголовок диалога выбора типа элемента задачи для создания"
+  },
+  "genericErrorWithDetails": "Ошибка: {error}",
+  "@genericErrorWithDetails": {
+    "description": "Универсальная ошибка с деталями",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Таймаут сети"
+      }
+    }
+  },
+  "addNoteTooltip": "Добавить заметку",
+  "@addNoteTooltip": {
+    "description": "Подсказка для кнопки добавления новой заметки"
+  },
+  "sortItemsTitle": "Сортировать элементы",
+  "@sortItemsTitle": {
+    "description": "Заголовок окна сортировки элементов"
+  },
+  "membersTooltip": "Участники",
+  "@membersTooltip": {
+    "description": "Подсказка для кнопки участников"
+  },
+  "taskDetailsTitle": "Детали задачи",
+  "@taskDetailsTitle": {
+    "description": "Название по умолчанию для задачи без имени"
+  },
+  "taskLoadingError": "Не удалось загрузить данные задачи: {error}",
+  "@taskLoadingError": {
+    "description": "Сообщение об ошибке при загрузке данных задачи",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Ошибка сети"
+      }
+    }
+  },
+  "updatePositionError": "Не удалось обновить позицию для элемента {itemId}",
+  "@updatePositionError": {
+    "description": "Сообщение об ошибке при обновлении позиции элемента задачи",
+    "placeholders": {
+      "itemId": {
+        "type": "String",
+        "example": "123"
+      }
+    }
+  },
+  "sortError": "Ошибка при сортировке: {error}",
+  "@sortError": {
+    "description": "Сообщение об ошибке при сортировке элементов",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Ошибка сети"
+      }
+    }
+  },
+  "itemsSorted": "Элементы отсортированы",
+  "@itemsSorted": {
+    "description": "Сообщение, показываемое при успешной сортировке элементов"
+  },
+  "completedFirst": "Сначала выполненные",
+  "@completedFirst": {
+    "description": "Опция сортировки для отображения выполненных элементов в начале списка"
+  },
+  "incompleteFirst": "Сначала невыполненные",
+  "@incompleteFirst": {
+    "description": "Опция сортировки для отображения невыполненных элементов в начале списка"
+  },
+  "deadlineLateFirst": "По дедлайну (сначала поздние)",
+  "@deadlineLateFirst": {
+    "description": "Опция сортировки для отображения задач сначала с самыми поздними дедлайнами"
+  },
+  "deadlineEarlyFirst": "По дедлайну (сначала ранние)",
+  "@deadlineEarlyFirst": {
+    "description": "Опция сортировки для отображения задач сначала с самыми ранними дедлайнами"
+  },
+  "userRoleUser": "Пользователь",
+  "@userRoleUser": {
+    "description": "Название для роли 'Пользователь'"
+  },
+  "userRoleEditor": "Редактор",
+  "@userRoleEditor": {
+    "description": "Название для роли 'Редактор'"
+  },
+  "userRoleAdmin": "Администратор",
+  "@userRoleAdmin": {
+    "description": "Название для роли 'Администратор'"
+  },
+  "rolesInfoDescription": "Администратор: полный доступ\nРедактор: может редактировать задачи\nПользователь: только просмотр",
+  "@rolesInfoDescription": {
+    "description": "Описание прав для каждой роли пользователя"
+  },
+  "selectNewMemberRole": "Выберите новую роль участника",
+  "@selectNewMemberRole": {
+    "description": "Заголовок окна выбора новой роли для участника задачи"
+  },
+  "failedToLoadMembers": "Не удалось загрузить участников: {error}",
+  "@failedToLoadMembers": {
+    "description": "Сообщение об ошибке при загрузке участников задачи",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Ошибка сети"
+      }
+    }
+  },
+  "you": "Вы",
+  "@you": {
+    "description": "Надпись для обозначения текущего пользователя (например, в списке участников)"
+  },
+  "roleUpdated": "Роль обновлена",
+  "@roleUpdated": {
+    "description": "Сообщение при успешном обновлении роли пользователя"
+  },
+  "creator": "Создатель",
+  "@creator": {
+    "description": "Метка для создателя задачи или проекта"
+  },
+  "noMembers": "Нет участников",
+  "@noMembers": {
+    "description": "Сообщение, отображаемое при отсутствии участников в задаче или проекте"
+  },
+  "taskCreatorNotFound": "Создатель задачи не найден",
+  "@taskCreatorNotFound": {
+    "description": "Сообщение об ошибке, когда создатель задачи не найден"
+  },
+  "leftTask": "Вы покинули задачу",
+  "@leftTask": {
+    "description": "Сообщение, показываемое при успешном выходе пользователя из задачи"
+  },
+  "leave": "Покинуть",
+  "@leave": {
+    "description": "Текст кнопки для выхода из задачи или группы"
+  },
+  "leaveTaskConfirmation": "Вы уверены, что хотите покинуть эту задачу? Вы потеряете доступ к ней.",
+  "@leaveTaskConfirmation": {
+    "description": "Сообщение подтверждения при попытке пользователя покинуть задачу"
+  },
+  "leaveTask": "Покинуть задачу",
+  "@leaveTask": {
+    "description": "Текст кнопки для подтверждения выхода из задачи"
+  },
+  "memberRemoved": "Участник удален",
+  "@memberRemoved": {
+    "description": "Уведомление об успешном удалении участника из задачи"
+  },
+  "removeMemberTitle": "Удалить участника",
+  "@removeMemberTitle": {
+    "description": "Заголовок диалога для удаления участника задачи"
+  },
+  "removeMemberConfirmation": "Вы уверены, что хотите удалить этого участника из задачи?",
+  "@removeMemberConfirmation": {
+    "description": "Текст подтверждения для удаления участника из задачи"
+  },
+  "emptyTaskNameError": "Название не может быть пустым",
+  "@emptyTaskNameError": {
+    "description": "Сообщение об ошибке при попытке сохранить пустое название задачи"
+  },
+  "editTaskTitle": "Редактировать название задачи",
+  "@editTaskTitle": {
+    "description": "Заголовок диалога для редактирования названия задачи"
+  },
+  "errorWhileAdding": "Ошибка при добавлении: {error}",
+  "@errorWhileAdding": {
+    "description": "Отображается при ошибке добавления пользователя или элемента",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Истекло время ожидания сети"
+      }
+    }
+  },
+  "userAdded": "Пользователь добавлен",
+  "@userAdded": {
+    "description": "Сообщение об успешном добавлении пользователя"
+  },
+  "ok": "Понятно",
+  "@ok": {
+    "description": "Текст кнопки для подтверждения в диалогах"
+  },
+  "userRoleUserDescription": "Только просмотр и отметка о выполнении пунктов",
+  "@userRoleUserDescription": {
+    "description": "Описание роли 'Пользователь'"
+  },
+  "userRoleEditorDescription": "Может добавлять и редактировать элементы, но не может управлять составом участников",
+  "@userRoleEditorDescription": {
+    "description": "Описание роли 'Редактор'"
+  },
+  "userRoleAdminDescription": "Доступ к задаче, включая добавление и редактирование элементов",
+  "@userRoleAdminDescription": {
+    "description": "Описание роли 'Администратор'"
+  },
+  "rolesInfoTitle": "Информация о ролях",
+  "@rolesInfoTitle": {
+    "description": "Название окна информации о ролях"
+  },
+  "rolesInfoButton": "О ролях",
+  "@rolesInfoButton": {
+    "description": "Текст кнопки для открытия информации о ролях"
+  },
+  "selectRole": "Выберите роль:",
+  "@selectRole": {
+    "description": "Подсказка для выбора роли пользователя в приложении"
+  },
+  "selectUser": "Выберите пользователя:",
+  "@selectUser": {
+    "description": "Подсказка для выбора пользователя из списка"
+  },
+  "addParticipant": "Добавить участника",
+  "@addParticipant": {
+    "description": "Текст кнопки для добавления участника в задачу"
+  },
+  "noAvailableUsers": "Нет доступных пользователей для добавления.",
+  "@noAvailableUsers": {
+    "description": "Сообщение, показываемое, когда нет доступных пользователей для добавления в задачу"
+  },
+  "darkMode": "Темная тема",
+  "@darkMode": {
+    "description": "Переключатель тёмной темы"
+  },
+  "error": "Ошибка",
+  "@error": {
+    "description": "Общий заголовок ошибки"
+  },
+  "login": "Логин",
+  "@login": {
+    "description": "Надпись поля ввода логина"
+  },
+  "enterLogin": "Введите логин",
+  "@enterLogin": {
+    "description": "Подсказка в поле логина"
+  },
+  "password": "Пароль",
+  "@password": {
+    "description": "Надпись поля ввода пароля"
+  },
+  "enterPassword": "Введите пароль",
+  "@enterPassword": {
+    "description": "Подсказка в поле пароля"
+  },
+  "rememberMe": "Запомнить меня",
+  "@rememberMe": {
+    "description": "Флажок 'Оставаться в системе'"
+  },
+  "signIn": "Войти",
+  "@signIn": {
+    "description": "Кнопка входа"
+  },
+  "confirmEmailPrompt": "Пожалуйста, подтвердите почту для входа.",
+  "@confirmEmailPrompt": {
+    "description": "Сообщение при попытке входа без подтверждённой почты"
+  },
+  "loginError": "Произошла ошибка входа",
+  "@loginError": {
+    "description": "Общая ошибка входа"
+  },
+  "invalidCredentials": "Неправильный логин или пароль",
+  "@invalidCredentials": {
+    "description": "Ошибка при неправильном логине или пароле"
+  },
+  "emailNotConfirmed": "Подтвердите свою почту, чтобы войти",
+  "@emailNotConfirmed": {
+    "description": "Ошибка при входе без подтверждённой почты"
+  },
+  "invalidPassword": "Неверный пароль",
+  "@invalidPassword": {
+    "description": "Ошибка при неправильном пароле"
+  },
+  "errorWhileSigningIn": "Ошибка входа: {error}",
+  "@errorWhileSigningIn": {
+    "description": "Показ при исключении входа",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Истекло время ожидания"
+      }
+    }
+  },
+  "signInError": "Произошла ошибка входа",
+  "@signInError": {
+    "description": "Произошла ошибка входа"
+  },
+  "passwordTooShort": "Пароль должен быть не менее 6 символов",
+  "@passwordTooShort": {
+    "description": "Пароль должен быть не менее 6 символов"
+  },
+  "registration": "Регистрация",
+  "@registration": {
+    "description": "Заголовок страницы регистрации"
+  },
+  "errorTitle": "Ошибка",
+  "@errorTitle": {
+    "description": "Общий заголовок для диалогов ошибок"
+  },
+  "email": "Email",
+  "@email": {
+    "description": "Метка для поля ввода email"
+  },
+  "enterEmail": "Введите ваш email",
+  "@enterEmail": {
+    "description": "Подсказка для поля ввода email"
+  },
+  "firstName": "Имя",
+  "@firstName": {
+    "description": "Метка для поля ввода имени"
+  },
+  "enterFirstName": "Введите ваше имя",
+  "@enterFirstName": {
+    "description": "Подсказка для поля ввода имени"
+  },
+  "lastName": "Фамилия",
+  "@lastName": {
+    "description": "Метка для поля ввода фамилии"
+  },
+  "enterLastName": "Введите вашу фамилию",
+  "@enterLastName": {
+    "description": "Подсказка для поля ввода фамилии"
+  },
+  "confirmPassword": "Подтверждение пароля",
+  "@confirmPassword": {
+    "description": "Метка для поля подтверждения пароля"
+  },
+  "repeatPassword": "Повторите пароль",
+  "@repeatPassword": {
+    "description": "Подсказка для поля подтверждения пароля"
+  },
+  "passwordsDoNotMatch": "Пароли не совпадают",
+  "@passwordsDoNotMatch": {
+    "description": "Отображается, если пароли не совпадают"
+  },
+  "pleaseEnterField": "Пожалуйста, введите {field}",
+  "@pleaseEnterField": {
+    "description": "Отображается, если обязательное поле пустое",
+    "placeholders": {
+      "field": {
+        "type": "String",
+        "example": "Email"
+      }
+    }
+  },
+  "loginAlreadyExists": "Логин уже занят. Выберите другой.",
+  "@loginAlreadyExists": {
+    "description": "Отображается, если логин уже существует"
+  },
+  "emailAlreadyExists": "Email уже используется.",
+  "@emailAlreadyExists": {
+    "description": "Отображается, если email уже зарегистрирован"
+  },
+  "registrationSuccessful": "Регистрация успешна!",
+  "@registrationSuccessful": {
+    "description": "Сообщение при успешной регистрации"
+  },
+  "pleaseConfirmEmail": "Пожалуйста, подтвердите вашу почту для завершения регистрации.",
+  "@pleaseConfirmEmail": {
+    "description": "Отображается после успешной регистрации с требованием подтвердить почту"
+  },
+  "registrationError": "Ошибка регистрации",
+  "@registrationError": {
+    "description": "Отображается при ошибке регистрации"
+  },
+  "registrationErrorWithDetails": "Ошибка регистрации: {error}",
+  "@registrationErrorWithDetails": {
+    "description": "Отображается при ошибке регистрации с деталями",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Ошибка сети"
+      }
+    }
+  },
+  "somethingWentWrong": "Что-то пошло не так. Попробуйте позже.",
+  "@somethingWentWrong": {
+    "description": "Отображается при неожиданных ошибках"
+  },
+  "emailAlreadyRegistered": "Этот email уже зарегистрирован.",
+  "@emailAlreadyRegistered": {
+    "description": "Отображается при попытке регистрации с уже существующим email"
+  },
+  "invalidEmailFormat": "Неверный формат email.",
+  "@invalidEmailFormat": {
+    "description": "Отображается при вводе некорректного email"
+  },
+  "weakPassword": "Пароль слишком слабый.",
+  "@weakPassword": {
+    "description": "Отображается при слишком слабом пароле"
+  },
+  "signUp": "Зарегистрироваться",
+  "@signUp": {
+    "description": "Текст кнопки регистрации"
+  },
+  "aboutMe": "Обо мне",
+  "@aboutMe": {
+    "description": "aboutme"
+  },
+  "organization": "Организация",
+  "@organization": {
+    "description": "Organization"
+  },
+  "phone": "Моб.номер",
+  "@phone": {
+    "description": "Phone number"
+  },
+  "social": "Соц. информаця",
+  "@social": {
+    "description": "Social"
+  },
+  "friends_login": "Логин",
+  "@friends_login": {
+    "description": "Login"
+  },
+  "enterLoginHint": "Введите логин друга",
+  "@enterLoginHint": {
+    "description": "Enter friend's login here"
+  },
+  "errorSendingRequest": "Ошибка при отправке заявки",
+  "@errorSendingRequest": {
+    "description": "Общее сообщение об ошибке при добавлении в друзья"
+  },
+  "confirmAddFriendTitle": "Добавить в друзья?",
+  "@confirmAddFriendTitle": {
+    "description": "Заголовок подтверждения добавления"
+  },
+  "confirmAddFriendContent": "Добавить пользователя @{login} в друзья?",
+  "@confirmAddFriendContent": {
+    "description": "Контент подтверждения с логином пользователя",
+    "placeholders": {
+      "login": {
+        "type": "String",
+        "example": "ivan_ivanov"
+      }
+    }
+  },
+  "friendRequestCancelled": "Заявка удалена",
+  "@friendRequestCancelled": {
+    "description": "Уведомление при отмене исходящей заявки"
+  },
+  "friendRequestCancelError": "Ошибка при удалении: {error}",
+  "@friendRequestCancelError": {
+    "description": "Ошибка при отмене заявки",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Ошибка соединения"
+      }
+    }
+  },
+  "usersNotFound": "Пользователи не найдены",
+  "@usersNotFound": {
+    "description": "Сообщение, отображаемое при отсутствии результатов поиска пользователей"
+  },
+  "friendRequestSendingError": "Ошибка при отправке: {error}",
+  "@friendRequestSendingError": {
+    "description": "Ошибка, возникшая при отправке заявки в друзья",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "TimeoutException"
+      }
+    }
+  },
+  "usersWasDelete": "Ваш друг был удален",
+  "@usersWasDelete": {
+    "description": "Сообщение, отображаемое при удалении друга"
+  },
+  "removeFriend": "Удалить друга",
+  "@removeFriend": {
+    "description": "Кнопка, отображаемое при удалении друга"
+  },
+  "friendProfile": "Профиль друга",
+  "@friendProfile": {
+    "description": "Профиль друга"
+  },
+  "userIdMissingError": "ID друга потерян",
+  "@userIdMissingError": {
+    "description": "Friend's ID is missed"
+  },
+  "noFriendsYet": "У вас пока нет друзей",
+  "@noFriendsYet": {
+    "description": "You aren't have any friends yet"
+  },
+  "noIncomingRequests": "Нет входящих заявок",
+  "@noIncomingRequests": {
+    "description": "No incoming requests"
+  },
+  "noOutgoingRequests": "Нет исходящих заявок",
+  "@noOutgoingRequests": {
+    "description": "No outgoing requests"
+  },
+  "sharedTasksTitle": "Совместные задачи",
+  "@sharedTasksTitle": {
+    "description": "Совместные задачи"
+  },
+  "invalidPhoneNumber": "Пожалуйста, введите корректный номер телефона",
+  "@invalidPhoneNumber": {
+    "description": "Сообщение об ошибке при некорректном номере телефона"
+  },
+  "invalidPhoneFormat": "Неверный формат номера телефона",
+  "@invalidPhoneFormat": {
+    "description": "Сообщение об ошибке при неверном формате номера телефона"
+  },
+  "usernameFormatRestriction": "Только английские буквы,\nцифры и символ \"_\"",
+  "@usernameFormatRestriction": {
+    "description": "Ограничение формата имени пользователя"
+  },
+  "usernameFormatHint": "Логин может содержать только английские буквы, цифры и символ подчёркивания",
+  "@usernameFormatHint": {
+    "description": "Подсказка по допустимому формату логина"
+  },
+  "invalidCharactersDetected": "Обнаружены недопустимые символы в вводимых данных",
+  "@invalidCharactersDetected": {
+    "description": "Сообщение об ошибке, если пользователь ввёл недопустимые символы"
+  },
+  "loginMinLength": "Логин должен содержать не менее 4 символов",
+  "@loginMinLength": {
+    "description": "Ошибка валидации — логин слишком короткий"
+  },
+  "loginMaxLength": "Логин должен содержать не более 15 символов",
+  "@loginMaxLength": {
+    "description": "Ошибка валидации — логин слишком длинный"
+  },
+  "optionalField": "Необязательное поле",
+  "@optionalField": {
+    "description": "Пометка необязательного поля формы"
+  },
+  "onlyLetters": "Только буквы",
+  "@onlyLetters": {
+    "description": "Ошибка: поле должно содержать только буквы"
+  },
+  "profileEditTitle": "Редактирование профиля",
+  "@profileEditTitle": {
+    "description": "Заголовок страницы редактирования профиля"
+  },
+  "profileUpdated": "Профиль успешно обновлен",
+  "@profileUpdated": {
+    "description": "Уведомление об успешном обновлении профиля"
+  },
+  "profileUpdateError": "Ошибка обновления профиля: {error}",
+  "@profileUpdateError": {
+    "description": "Ошибка при обновлении профиля",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Ошибка сети"
+      }
+    }
+  },
+  "fieldCannotBeOnlySpaces": "Поле не может содержать только пробелы",
+  "@fieldCannotBeOnlySpaces": {
+    "description": "Ошибка: в поле только пробелы"
+  },
+  "fieldOnlyLetters": "Поле {fieldName} может содержать только буквы",
+  "@fieldOnlyLetters": {
+    "description": "Ошибка: поле должно содержать только буквы",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "Имя"
+      }
+    }
+  },
+  "fieldRequired": "Поле {fieldName} не может быть пустым",
+  "@fieldRequired": {
+    "description": "Ошибка: обязательное поле",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "Имя"
+      }
+    }
+  },
+  "note": "Заметка",
+  "@note": {
+    "description": "Тип элемента — заметка"
+  },
+  "header": "Заголовок",
+  "@header": {
+    "description": "Тип элемента — заголовок"
+  },
+  "checklist": "Чек-лист",
+  "@checklist": {
+    "description": "Тип элемента — список с флажками"
+  },
+  "noPermission": "У вас нет прав для изменений",
+  "@noPermission": {
+    "description": "Сообщение пользователю, что у него нет прав добавлять элементы"
+  },
+  "fullName": "Дмитрий Камков",
+  "@fullName": {
+    "description": "Полное имя студента"
+  },
+  "universityShort": "УрТИСИ СибГУТИ, ПЕ-12б\nКафедра ИСТ",
+  "@universityShort": {
+    "description": "Краткая информация о ВУЗе и кафедре"
+  },
+  "universityFull": "Студент УрТИСИ СибГУТИ\nСпециальность: ПО Автономной и Вычислительной Техники\nГруппа: ПЕ-12б\nКафедра ИСТ",
+  "@universityFull": {
+    "description": "Полная информация об учебе"
+  },
+  "hobbyTitle": "Хобби",
+  "@hobbyTitle": {
+    "description": "Заголовок раздела хобби"
+  },
+  "hobbyFigureSkating": "Фигурное\n катание",
+  "hobbySnowboard": "Сноуборд",
+  "hobbyWakeboard": "Вейкборд",
+  "hobbyFootball": "Футбол",
+  "quoteTitle": "Цитата",
+  "@quoteTitle": {
+    "description": "Заголовок для цитаты"
+  },
+  "quoteText": "«Там, где другие видят предел — я ищу путь дальше.»",
+  "@quoteText": {
+    "description": "Личная цитата"
+  },
+  "contactsTitle": "Контакты",
+  "@contactsTitle": {
+    "description": "Заголовок раздела контактов"
+  },
+  "takePhoto": "Сделать снимок",
+  "@takePhoto": {},
+  "chooseFromGallery": "Выбрать из галереи",
+  "@chooseFromGallery": {},
+  "avatarRemoveSuccess": "Аватар успешно удалён",
+  "@avatarRemoveSuccess": {
+    "description": "Сообщение об успешном удалении аватара"
+  },
+  "avatarRemoveError": "Ошибка удаления аватара: {error}",
+  "@avatarRemoveError": {
+    "description": "Сообщение об ошибке при удалении аватара",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Ошибка сети"
+      }
+    }
+  },
+  "removeAvatar": "Удалить аватар",
+  "@removeAvatar": {
+    "description": "Подпись кнопки или действия по удалению аватара"
+  },
+  "confirmRemoveAvatar": "Вы уверены, что хотите удалить аватар?",
+  "@confirmRemoveAvatar": {
+    "description": "Подтверждающее сообщение перед удалением аватара"
+  },
+  "removeAvatarConfirmation": "Подтверждение удаления аватара",
+  "@removeAvatarConfirmation": {
+    "description": "Заголовок окна подтверждения удаления аватара"
+  },
+  "remove": "Удалить",
+  "@remove": {
+    "description": "Подпись кнопки удаления"
+  },
+  "avatarRemoved": "Аватар удалён",
+  "@avatarRemoved": {
+    "description": "Краткое сообщение об удалении аватара"
+  },
+  "exampleFormat": "Пример формата",
+  "@exampleFormat": {
+    "description": "Подпись, указывающая пример формата ввода (например, телефона или даты)"
+  },
+  "exampleNumber": "Пример номера",
+  "@exampleNumber": {
+    "description": "Подсказка или подпись, показывающая образец номера"
+  },
+  "exampleFormatWithNumber": "Пример формата: {number}",
+  "@exampleFormatWithNumber": {
+    "description": "Подпись с примером формата и динамическим значением (например, номером телефона)",
+    "placeholders": {
+      "number": {
+        "type": "String",
+        "example": "+7 123 456-78-90"
+      }
+    }
+  },
+  "roleUpdateError": "Ошибка при обновлении роли: {error}",
+  "@roleUpdateError": {
+    "description": "Ошибка, возникающая при обновлении роли участника",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Пользователь не найден"
+      }
+    }
+  },
+  "cannotAddCreatorAsMember": "Невозможно добавить создателя задачи как участника",
+  "@cannotAddCreatorAsMember": {
+    "description": "Сообщение об ошибке при попытке добавить автора задачи как участника"
+  },
+  "roleChangedLimitedAccess": "Ваша роль была изменена, некоторые функции недоступны",
+  "@roleChangedLimitedAccess": {
+    "description": "Информационное сообщение после понижения прав пользователя"
+  },
+  "updatingPositions": "Обновление позиций",
+  "@updatingPositions": {
+    "description": "Info message"
+  },
+  "changePassword": "Сменить пароль",
+  "@changePassword": {
+    "description": "Заголовок или текст кнопки для смены пароля пользователя"
+  },
+  "currentPassword": "Текущий пароль",
+  "@currentPassword": {
+    "description": "Метка поля ввода текущего пароля"
+  },
+  "newPassword": "Новый пароль",
+  "@newPassword": {
+    "description": "Метка поля для нового пароля"
+  },
+  "confirmNewPassword": "Подтвердите новый пароль",
+  "@confirmNewPassword": {
+    "description": "Метка поля для подтверждения нового пароля"
+  },
+  "enterCurrentPassword": "Введите текущий пароль",
+  "@enterCurrentPassword": {
+    "description": "Сообщение об ошибке, если не введен текущий пароль"
+  },
+  "enterNewPassword": "Введите новый пароль",
+  "@enterNewPassword": {
+    "description": "Сообщение об ошибке, если не введен новый пароль"
+  },
+  "confirmYourPassword": "Подтвердите новый пароль",
+  "@confirmYourPassword": {
+    "description": "Сообщение об ошибке, если не введено подтверждение пароля"
+  },
+  "passwordChanged": "Пароль успешно изменён",
+  "@passwordChanged": {
+    "description": "Сообщение об успешной смене пароля"
+  },
+  "incorrectCurrentPassword": "Неверный текущий пароль",
+  "@incorrectCurrentPassword": {
+    "description": "Ошибка, если текущий пароль введён неверно"
+  },
+  "failedToUpdatePassword": "Не удалось изменить пароль: {error}",
+  "@failedToUpdatePassword": {
+    "description": "Сообщение при ошибке смены пароля",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Ошибка сети"
+      }
+    }
+  },
+  "newPasswordSameAsOld": "Новый пароль не может совпадать со старым",
+  "@newPasswordSameAsOld": {
+    "description": "Сообщение при совпадении нового пароля со старым"
+  },
+  "passwordChangeSuccess": "Пароль успешно изменён",
+  "@passwordChangeSuccess": {
+    "description": "Сообщение при успешной смене пароля"
+  },
+  "backToSignIn": "Вернуться ко входу",
+  "@backToSignIn": {
+    "description": "Кнопка возврата на экран входа"
+  },
+  "checkYourEmail": "Проверьте вашу почту",
+  "@checkYourEmail": {
+    "description": "Заголовок после отправки ссылки сброса"
+  },
+  "sendResetLink": "Отправить ссылку сброса",
+  "@sendResetLink": {
+    "description": "Кнопка для отправки письма со ссылкой сброса пароля"
+  },
+  "resetPasswordInstructions": "Введите ваш login, и мы отправим ссылку для сброса пароля.",
+  "@resetPasswordInstructions": {
+    "description": "Инструкции для сброса пароля"
+  },
+  "resetPassword": "Сброс пароля",
+  "@resetPassword": {
+    "description": "Заголовок экрана сброса пароля"
+  },
+  "forgotPassword": "Забыли пароль?",
+  "@forgotPassword": {
+    "description": "Ссылка для начала процесса сброса пароля"
+  },
+  "passwordResetError": "Ошибка при сбросе пароля",
+  "@passwordResetError": {
+    "description": "Сообщение об ошибке сброса пароля"
+  },
+  "passwordResetEmailSent": "Ссылка для сброса пароля отправлена на вашу почту.",
+  "@passwordResetEmailSent": {
+    "description": "Уведомление об успешной отправке письма сброса"
+  },
+  "success": "Успешно",
+  "@success": {
+    "description": "Общее сообщение об успешной операции"
+  },
+  "updatePassword": "Обновить пароль",
+  "@updatePassword": {
+    "description": "Кнопка или заголовок для обновления пароля"
+  },
+  "createNewPasswordInstructions": "Создайте новый пароль для вашего аккаунта.",
+  "@createNewPasswordInstructions": {
+    "description": "Инструкции при сбросе пароля после подтверждения по почте"
+  },
+  "createNewPassword": "Создание нового пароля",
+  "@createNewPassword": {
+    "description": "Заголовок для экрана создания нового пароля"
+  },
+  "passwordHasBeenReset": "Ваш пароль был успешно сброшен.",
+  "@passwordHasBeenReset": {
+    "description": "Сообщение после успешного сброса пароля"
+  },
+  "passwordResetSuccess": "Сброс пароля выполнен успешно",
+  "@passwordResetSuccess": {
+    "description": "Общее сообщение об успешном завершении сброса пароля"
+  },
+  "sessionExpired": "Сессия истекла",
+  "@sessionExpired": {
+    "description": "Заголовок, когда сессия пользователя истекла"
+  },
+  "sessionExpiredMessage": "Ваша сессия истекла. Пожалуйста, войдите снова.",
+  "@sessionExpiredMessage": {
+    "description": "Сообщение при истечении пользовательской сессии"
+  },
+  "tryAgain": "Повторить",
+  "@tryAgain": {
+    "description": "Кнопка для повторной попытки действия"
+  },
+  "assignParticipant": "Назначить участника",
+  "@assignParticipant": {
+    "description": "Кнопка или заголовок для назначения участника к задаче"
+  },
+  "invalidCharactersError": "Значение содержит недопустимые символы",
+  "@invalidCharactersError": {
+    "description": "Сообщение об ошибке, если введённое значение содержит запрещённые символы"
+  },
+  "missingRecoveryParamsTitle": "Отсутствуют параметры",
+  "missingRecoveryParamsMessage": "Токен восстановления или email отсутствует. Пожалуйста, используйте ссылку из письма для сброса пароля.",
+  "@missingRecoveryParamsTitle": {
+    "description": "Заголовок окна ошибки при отсутствии параметров восстановления"
+  },
+  "@missingRecoveryParamsMessage": {
+    "description": "Сообщение об ошибке при отсутствии токена восстановления или email"
+  },
+  "resetLimitExceeded": "Превышен лимит запросов",
+  "resetLimitExceededMessage": "Вы превысили лимит запросов на восстановление пароля (5 запросов в час).",
+  "waitBeforeNextAttempt": "Пожалуйста, подождите {time} перед следующей попыткой.",
+  "remainingAttempts": "Осталось попыток: {attempts} из 5",
+  "nextAttemptAvailable": "Следующая попытка будет доступна через: {time}",
+  "resetEmailLimitNotice": "Обратите внимание: вы можете запросить не более 5 писем для сброса пароля в течение часа.",
+  "@waitBeforeNextAttempt": {
+    "description": "Сообщение, информирующее пользователя о необходимости подождать перед повторной попыткой",
+    "placeholders": {
+      "time": {
+        "type": "String",
+        "example": "15 минут"
+      }
+    }
+  },
+  "@remainingAttempts": {
+    "description": "Сообщение об оставшемся числе попыток",
+    "placeholders": {
+      "attempts": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "@nextAttemptAvailable": {
+    "description": "Сообщение о времени следующей доступной попытки",
+    "placeholders": {
+      "time": {
+        "type": "String",
+        "example": "45 минут"
+      }
+    }
+  },
+  "notAssigned": "Не назначено",
+  "@notAssigned": {
+    "description": "Статус элемента, который еще не был назначен"
+  },
+  "hidePassword": "Скрыть пароль",
+  "@hidePassword": {
+    "description": "Подсказка или кнопка для скрытия пароля"
+  },
+  "showPassword": "Показать пароль",
+  "@showPassword": {
+    "description": "Подсказка или кнопка для показа пароля"
+  },
+  "tapToViewProfile": "Просмотр профиля",
+  "@tapToViewProfile": {
+    "description": ""
+  },
+  "accept": "Принять",
+  "@accept": {
+    "description": "Кнопка для принятия заявки или действия"
+  },
+  "reject": "Отклонить",
+  "@reject": {
+    "description": "Кнопка для отклонения заявки или действия"
+  },
+  "cancelRequest": "Отменить заявку",
+  "@cancelRequest": {
+    "description": "Кнопка для отмены отправленной заявки"
+  },
+  "minutes1": "минут",
+  "@minutes1": {
+    "description": "Статус или сообщение, обозначающее, что действие в процессе"
+  },
+  "minutes": "минуты",
+  "@minutes": {
+    "description": "Статус или сообщение, обозначающее, что действие в процессе"
+  },
+  "minute": "минута",
+  "@minute": {
+    "description": "Статус или сообщение, обозначающее, что действие в процессе"
+  },
+  "neconds1": "секунд",
+  "@neconds1": {
+    "description": "Статус или сообщение, обозначающее, что действие в процессе"
+  },
+  "seconds": "секунды",
+  "@seconds": {
+    "description": "Статус или сообщение, обозначающее, что действие в процессе"
+  },
+  "second": "секунда",
+  "@second": {
+    "description": "Статус или сообщение, обозначающее, что действие в процессе"
+  },
+  "processing": "Обработка",
+  "@processing": {
+    "description": "Статус или сообщение, обозначающее, что действие в процессе"
+  }
+}

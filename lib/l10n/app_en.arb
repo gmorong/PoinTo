@@ -1,0 +1,1359 @@
+{
+  "@@locale": "en",
+  "general": "GENERAL",
+  "@general": {
+    "description": "Title for the general section"
+  },
+  "language": "Language",
+  "@language": {
+    "description": "Label for language selection"
+  },
+  "settings": "Settings",
+  "@settings": {
+    "description": "Title for settings screen"
+  },
+  "profile": "PROFILE",
+  "@profile": {
+    "description": "Title for profile section"
+  },
+  "exit": "Exit",
+  "@exit": {
+    "description": "Exit button label"
+  },
+  "dark_mode": "Dark Mode",
+  "@dark_mode": {
+    "description": "Label for dark mode toggle"
+  },
+  "about_developer": "About Developer",
+  "@about_developer": {
+    "description": "Information about developer"
+  },
+  "change_order": "Change Order",
+  "@change_order": {
+    "description": "Button to change order of items"
+  },
+  "add_task": "Add Task",
+  "@add_task": {
+    "description": "Button to add a new task"
+  },
+  "task_options": "Task Options",
+  "@task_options": {
+    "description": "Options for a task"
+  },
+  "edit_task": "Edit Task",
+  "@edit_task": {
+    "description": "Edit an existing task"
+  },
+  "delete_task": "Delete Task",
+  "@delete_task": {
+    "description": "Delete a task"
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Cancel action button"
+  },
+  "save": "Save",
+  "@save": {
+    "description": "Save action button"
+  },
+  "edit_name": "Edit name",
+  "@edit_name": {
+    "description": "Edit name field"
+  },
+  "add_member": "Add member",
+  "@add_member": {
+    "description": "Add a member to task or group"
+  },
+  "sort_items": "Sort items",
+  "@sort_items": {
+    "description": "Sort items button"
+  },
+  "task_members": "Task members",
+  "@task_members": {
+    "description": "List of task members"
+  },
+  "close": "Close",
+  "@close": {
+    "description": "Close action"
+  },
+  "admin": "Admin",
+  "@admin": {
+    "description": "Administrator role"
+  },
+  "editor": "Editor",
+  "@editor": {
+    "description": "Editor role"
+  },
+  "user": "User",
+  "@user": {
+    "description": "User role"
+  },
+  "select_user": "Select user",
+  "@select_user": {
+    "description": "Select a user"
+  },
+  "select_role": "Select role",
+  "@select_role": {
+    "description": "Select a role"
+  },
+  "about_role": "About role",
+  "@about_role": {
+    "description": "Information about roles"
+  },
+  "add": "Add",
+  "@add": {
+    "description": "Add button"
+  },
+  "okay": "Okay",
+  "@okay": {
+    "description": "Okay confirmation button"
+  },
+  "name": "Name",
+  "@name": {
+    "description": "Name field"
+  },
+  "edit_profile": "Edit profile",
+  "@edit_profile": {
+    "description": "Edit profile action"
+  },
+  "friends": "Friends",
+  "@friends": {
+    "description": "Friends list title"
+  },
+  "surname": "Surname",
+  "@surname": {
+    "description": "Surname field"
+  },
+  "select_avatar": "Select avatar",
+  "@select_avatar": {
+    "description": "Select avatar for profile"
+  },
+  "incoming_requests": "Incoming requests",
+  "@incoming_requests": {
+    "description": "List of incoming requests"
+  },
+  "outgoing_requests": "Outgoing requests",
+  "@outgoing_requests": {
+    "description": "List of outgoing requests"
+  },
+  "friends_email": "Friend's email",
+  "@friends_email": {
+    "description": "Email address of a friend"
+  },
+  "task_name": "Task Name",
+  "@task_name": {
+    "description": "Task's name of project"
+  },
+  "authorLabel": "Author: {name}",
+  "@authorLabel": {
+    "description": "Label with author's name",
+    "placeholders": {
+      "name": {
+        "example": "Alex"
+      }
+    }
+  },
+  "unknown": "Unknown",
+  "@unknown": {
+    "description": "Unknown"
+  },
+  "createdByMe": "Created by me",
+  "@createdByMe": {
+    "description": "Text to indicate the item was created by the current user"
+  },
+  "yourTasksWillAppearHere": "Your tasks will appear here",
+  "@yourTasksWillAppearHere": {
+    "description": "Message shown when there are no tasks yet"
+  },
+  "exitFromTask": "Exit from Task",
+  "@exitFromTask": {
+    "description": "Button or action for exiting from the task"
+  },
+  "deleteTask": "Delete Task",
+  "@deleteTask": {
+    "description": "Button or action for deleting the task"
+  },
+  "delete": "Delete",
+  "@delete": {
+    "description": "delete"
+  },
+  "confirmDeleteTask": "Are you sure you want to delete this task?",
+  "@confirmDeleteTask": {
+    "description": "Confirmation prompt for deleting the task"
+  },
+  "confirmDeletion": "Confirm Deletion",
+  "@confirmDeletion": {
+    "description": "Title of the deletion confirmation dialog"
+  },
+  "taskNameCannotBeEmpty": "Task name cannot be empty",
+  "@taskNameCannotBeEmpty": {
+    "description": "Error message shown when the task name field is left empty"
+  },
+  "newTaskName": "New Task Name",
+  "@newTaskName": {
+    "description": "Hint or title for entering a new task name"
+  },
+  "selectLanguage": "Select Language",
+  "@selectLanguage": {
+    "description": "Title or label for selecting a language"
+  },
+  "lastNameNotSpecified": "Last name not specified",
+  "@lastNameNotSpecified": {
+    "description": "Default text when user's last name is not provided"
+  },
+  "firstNameNotSpecified": "First name not specified",
+  "@firstNameNotSpecified": {
+    "description": "Default text when user's first name is not provided"
+  },
+  "errorSendingFriendRequest": "Error sending friend request: {error}",
+  "@errorSendingFriendRequest": {
+    "description": "Error message when sending a friend request",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "TimeoutException",
+        "description": "Description of the error or exception text"
+      }
+    }
+  },
+  "errorWithDetails": "Error: {error}",
+  "@errorWithDetails": {
+    "description": "Error message with details",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Failed to load data",
+        "description": "Error description or exception text"
+      }
+    }
+  },
+  "friendRequestSent": "Friend request sent",
+  "@friendRequestSent": {
+    "description": "Message indicating that a friend request has been successfully sent"
+  },
+  "friendRequestAlreadySentOrFriend": "Friend request already sent or user is already your friend",
+  "@friendRequestAlreadySentOrFriend": {
+    "description": "Message when the user has already sent a request or is already a friend"
+  },
+  "userNotFound": "User not found",
+  "@userNotFound": {
+    "description": "Error message when the user with the specified email was not found"
+  },
+  "needToLogin": "You need to log in",
+  "@needToLogin": {
+    "description": "Message when user must log in before performing an action"
+  },
+  "emailCannotBeEmpty": "Email cannot be empty",
+  "@emailCannotBeEmpty": {
+    "description": "Error message when user did not enter email"
+  },
+  "send": "Send",
+  "@send": {
+    "description": "Button to submit a form or request"
+  },
+  "enterEmailHint": "Enter your email",
+  "@enterEmailHint": {
+    "description": "Hint text for email input field"
+  },
+  "addFriendTitle": "Add Friend",
+  "@addFriendTitle": {
+    "description": "Title for add friend dialog"
+  },
+  "errorWhileExiting": "Error while exiting: {error}",
+  "@errorWhileExiting": {
+    "description": "Error message when the user tries to exit the task.",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Timeout error",
+        "description": "Error text that will be inserted into the message."
+      }
+    }
+  },
+  "errorUpdatingProfile": "Failed to update profile: {error}",
+  "@errorUpdatingProfile": {
+    "description": "Error message when updating a user profile fails",
+    "placeholders": {
+      "error": {
+        "example": "Server connection error"
+      }
+    }
+  },
+  "profileUpdateSuccess": "Profile updated successfully",
+  "@profileUpdateSuccess": {
+    "description": "Message shown when profile update is successful"
+  },
+  "avatarUploadError": "Error uploading avatar: {error}",
+  "@avatarUploadError": {
+    "description": "Error occurred while uploading avatar",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Network error",
+        "description": "Description of the error during avatar upload"
+      }
+    }
+  },
+  "enterTextHint": "Enter text...",
+  "@enterTextHint": {
+    "description": "Hint text in a text field for entering text"
+  },
+  "noTaskItems": "There are no items in the task",
+  "@noTaskItems": {
+    "description": "Text displayed when there are no items in the task"
+  },
+  "tapToAddFirstItem": "Tap '+' to add the first item",
+  "@tapToAddFirstItem": {
+    "description": "Hint to the user to tap '+' to add the first item to the task"
+  },
+  "noPermissionToAddItems": "You don't have permission to add items",
+  "@noPermissionToAddItems": {
+    "description": "Message to the user indicating they don't have permission to add items"
+  },
+  "saveError": "Error saving content: {error}",
+  "@saveError": {
+    "description": "Error message when saving content fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Network request timeout"
+      }
+    }
+  },
+  "roleChanged": "Your role has been changed to: {role}",
+  "@roleChanged": {
+    "description": "Message shown after the user's role is changed",
+    "placeholders": {
+      "role": {
+        "example": "Editor, Admin, User"
+      }
+    }
+  },
+  "removedFromTask": "You have been removed from this task",
+  "@removedFromTask": {
+    "description": "Message shown when the user is removed from the task"
+  },
+  "emptyNoteDeleted": "Empty note deleted",
+  "@emptyNoteDeleted": {
+    "description": "Message shown when an empty note is deleted"
+  },
+  "errorSavingContent": "Error saving content: {error}",
+  "@errorSavingContent": {
+    "description": "Error message when saving content fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Network error"
+      }
+    }
+  },
+  "genericError": "Error: {error}",
+  "@genericError": {
+    "description": "Generic error message with details",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Network error"
+      }
+    }
+  },
+  "itemOptionsTitle": "Item Options",
+  "@itemOptionsTitle": {
+    "description": "Title for the item options dialog"
+  },
+  "itemTypeLabel": "Item Type:",
+  "@itemTypeLabel": {
+    "description": "Label for selecting the item type in the item options dialog"
+  },
+  "deadlineLabel": "Deadline:",
+  "@deadlineLabel": {
+    "description": "Label for selecting the deadline of an item in the item options"
+  },
+  "notSet": "Not set",
+  "@notSet": {
+    "description": "Text shown when deadline or another value is not set"
+  },
+  "clearDeadline": "Clear deadline",
+  "@clearDeadline": {
+    "description": "Button to clear the set deadline from an item"
+  },
+  "confirmation": "Confirmation",
+  "@confirmation": {
+    "description": "Title for a confirmation dialog"
+  },
+  "deleteItemConfirmation": "Are you sure you want to delete this item?",
+  "@deleteItemConfirmation": {
+    "description": "Confirmation message for deleting an item"
+  },
+  "deleteError": "Deletion error: {error}",
+  "@deleteError": {
+    "description": "Error that occurred during deletion with details",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Network error"
+      }
+    }
+  },
+  "noDeadline": "No deadline",
+  "@noDeadline": {
+    "description": "Displayed when a task item has no deadline assigned"
+  },
+  "today": "Today",
+  "@today": {
+    "description": "Displayed when a task deadline is set for today"
+  },
+  "tomorrow": "Tomorrow",
+  "@tomorrow": {
+    "description": "Displayed when a task deadline is set for tomorrow"
+  },
+  "overdueWithDate": "Overdue ({date})",
+  "@overdueWithDate": {
+    "description": "Displayed when a deadline has passed, showing the overdue date",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "24.04.2025"
+      }
+    }
+  },
+  "invalidDate": "Invalid date",
+  "@invalidDate": {
+    "description": "Displayed when the date cannot be parsed or is incorrect"
+  },
+  "noAvailableItemTypes": "No available item types",
+  "@noAvailableItemTypes": {
+    "description": "Displayed when there are no available item types to create in a task"
+  },
+  "selectItemType": "Select item type",
+  "@selectItemType": {
+    "description": "Title for dialog where user selects a type of task item to create"
+  },
+  "genericErrorWithDetails": "Error: {error}",
+  "@genericErrorWithDetails": {
+    "description": "Generic error message with details",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Network timeout"
+      }
+    }
+  },
+  "addNoteTooltip": "Add a note",
+  "@addNoteTooltip": {
+    "description": "Tooltip for the button to add a new note"
+  },
+  "sortItemsTitle": "Sort items",
+  "@sortItemsTitle": {
+    "description": "Title for the sort items dialog"
+  },
+  "membersTooltip": "Members",
+  "@membersTooltip": {
+    "description": "Tooltip for the members button"
+  },
+  "taskDetailsTitle": "Task Details",
+  "@taskDetailsTitle": {
+    "description": "Fallback title when the task has no specific title"
+  },
+  "taskLoadingError": "Failed to load task data: {error}",
+  "@taskLoadingError": {
+    "description": "Error when failing to load task details",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Network error"
+      }
+    }
+  },
+  "updatePositionError": "Failed to update position for item {itemId}",
+  "@updatePositionError": {
+    "description": "Error message when updating the position of a task item fails",
+    "placeholders": {
+      "itemId": {
+        "type": "String",
+        "example": "123"
+      }
+    }
+  },
+  "sortError": "Error while sorting: {error}",
+  "@sortError": {
+    "description": "Error message when an error occurs during item sorting",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Network issue"
+      }
+    }
+  },
+  "itemsSorted": "Items sorted successfully",
+  "@itemsSorted": {
+    "description": "Message shown when items are successfully sorted"
+  },
+  "completedFirst": "Completed first",
+  "@completedFirst": {
+    "description": "Sorting option to display completed items first"
+  },
+  "incompleteFirst": "Incomplete first",
+  "@incompleteFirst": {
+    "description": "Sorting option to display incomplete items first"
+  },
+  "deadlineLateFirst": "By deadline (latest first)",
+  "@deadlineLateFirst": {
+    "description": "Sorting option to display tasks by deadline with the latest ones first"
+  },
+  "deadlineEarlyFirst": "By deadline (earliest first)",
+  "@deadlineEarlyFirst": {
+    "description": "Sorting option to display tasks by deadline with the earliest ones first"
+  },
+  "userRoleUser": "User",
+  "@userRoleUser": {
+    "description": "Title for the user role 'User'"
+  },
+  "userRoleEditor": "Editor",
+  "@userRoleEditor": {
+    "description": "Title for the user role 'Editor'"
+  },
+  "userRoleAdmin": "Administrator",
+  "@userRoleAdmin": {
+    "description": "Title for the user role 'Administrator'"
+  },
+  "rolesInfoDescription": "Administrator: full access\nEditor: can edit tasks\nUser: view only",
+  "@rolesInfoDescription": {
+    "description": "Description of the permissions for each user role"
+  },
+  "selectNewMemberRole": "Select a new member role",
+  "@selectNewMemberRole": {
+    "description": "Title for dialog where user selects a new role for a task participant"
+  },
+  "failedToLoadMembers": "Failed to load members: {error}",
+  "@failedToLoadMembers": {
+    "description": "Displayed when there is an error loading task members",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Network error"
+      }
+    }
+  },
+  "you": "You",
+  "@you": {
+    "description": "Label for indicating the current user (e.g., in participants list)"
+  },
+  "roleUpdated": "Role updated",
+  "@roleUpdated": {
+    "description": "Message shown when a user's role has been successfully updated"
+  },
+  "creator": "Creator",
+  "@creator": {
+    "description": "Label for the creator of a task or project"
+  },
+  "noMembers": "No members",
+  "@noMembers": {
+    "description": "Message shown when there are no members in the task or project"
+  },
+  "taskCreatorNotFound": "Task creator not found",
+  "@taskCreatorNotFound": {
+    "description": "Error message when the task creator is not found"
+  },
+  "leftTask": "You have left the task",
+  "@leftTask": {
+    "description": "Message shown when the user successfully leaves a task"
+  },
+  "leave": "Leave",
+  "@leave": {
+    "description": "Button text for leaving a task or group"
+  },
+  "leaveTaskConfirmation": "Are you sure you want to leave this task? You will lose access to it.",
+  "@leaveTaskConfirmation": {
+    "description": "Confirmation message shown when user tries to leave the task"
+  },
+  "leaveTask": "Leave Task",
+  "@leaveTask": {
+    "description": "Button text to confirm leaving the task"
+  },
+  "memberRemoved": "Member removed",
+  "@memberRemoved": {
+    "description": "Notification when a member is successfully removed from a task"
+  },
+  "removeMemberTitle": "Remove Member",
+  "@removeMemberTitle": {
+    "description": "Title for the dialog to remove a task member"
+  },
+  "removeMemberConfirmation": "Are you sure you want to remove this member from the task?",
+  "@removeMemberConfirmation": {
+    "description": "Confirmation text for removing a task member"
+  },
+  "emptyTaskNameError": "Task name cannot be empty",
+  "@emptyTaskNameError": {
+    "description": "Error message shown when trying to save an empty task name"
+  },
+  "editTaskTitle": "Edit Task Title",
+  "@editTaskTitle": {
+    "description": "Title for the dialog to edit the task name"
+  },
+  "errorWhileAdding": "Error while adding: {error}",
+  "@errorWhileAdding": {
+    "description": "Displayed when there is an error while adding a user or an item",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Network timeout"
+      }
+    }
+  },
+  "userAdded": "User added",
+  "@userAdded": {
+    "description": "Message when a user has been successfully added"
+  },
+  "ok": "Got it",
+  "@ok": {
+    "description": "Button text to confirm understanding in dialogs"
+  },
+  "userRoleUserDescription": "Only view and mark items as completed",
+  "@userRoleUserDescription": {
+    "description": "Description of the 'User' role"
+  },
+  "userRoleEditorDescription": "Can add and edit items, but cannot manage members",
+  "@userRoleEditorDescription": {
+    "description": "Description of the 'Editor' role"
+  },
+  "userRoleAdminDescription": "Full access to task, including member management and editing items",
+  "@userRoleAdminDescription": {
+    "description": "Description of the 'Admin' role"
+  },
+  "rolesInfoTitle": "Role Information",
+  "@rolesInfoTitle": {
+    "description": "Title for the dialog showing role information"
+  },
+  "rolesInfoButton": "About roles",
+  "@rolesInfoButton": {
+    "description": "Button text to open the roles information dialog"
+  },
+  "selectRole": "Select role:",
+  "@selectRole": {
+    "description": "Prompt to select a user role in the app"
+  },
+  "selectUser": "Select user:",
+  "@selectUser": {
+    "description": "Prompt to select a user from the list"
+  },
+  "addParticipant": "Add participant",
+  "@addParticipant": {
+    "description": "Button text for adding a participant to a task"
+  },
+  "noAvailableUsers": "No available users to add.",
+  "@noAvailableUsers": {
+    "description": "Message shown when there are no users available to add to the task"
+  },
+  "darkMode": "Dark theme",
+  "@darkMode": {
+    "description": "Switch label for dark theme toggle"
+  },
+  "error": "Error",
+  "@error": {
+    "description": "Generic error title"
+  },
+  "login": "Login",
+  "@login": {
+    "description": "Label for login input field"
+  },
+  "enterLogin": "Enter login",
+  "@enterLogin": {
+    "description": "Hint for login input"
+  },
+  "password": "Password",
+  "@password": {
+    "description": "Label for password input field"
+  },
+  "enterPassword": "Enter your password",
+  "@enterPassword": {
+    "description": "Hint for password input"
+  },
+  "rememberMe": "Remember me",
+  "@rememberMe": {
+    "description": "Checkbox label for keeping user signed in"
+  },
+  "signIn": "Sign in",
+  "@signIn": {
+    "description": "Text for sign-in button"
+  },
+  "confirmEmailPrompt": "Please confirm your email to log in.",
+  "@confirmEmailPrompt": {
+    "description": "Shown when login attempted with unconfirmed email"
+  },
+  "loginError": "Login error occurred",
+  "@loginError": {
+    "description": "Generic login error message"
+  },
+  "invalidCredentials": "Invalid login or password",
+  "@invalidCredentials": {
+    "description": "Error shown when login credentials are wrong"
+  },
+  "emailNotConfirmed": "Email not confirmed. Please verify it first.",
+  "@emailNotConfirmed": {
+    "description": "Error shown if email hasn't been verified"
+  },
+  "invalidPassword": "Incorrect password",
+  "@invalidPassword": {
+    "description": "Error shown when password is incorrect"
+  },
+  "errorWhileSigningIn": "Sign-in failed: {error}",
+  "@errorWhileSigningIn": {
+    "description": "Shown when sign-in throws an exception",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Timeout"
+      }
+    }
+  },
+  "signInError": "An error occurred during sign in",
+  "@signInError": {
+    "description": "An error occurred during sign in"
+  },
+  "passwordTooShort": "Password must be at least 6 characters",
+  "@passwordTooShort": {
+    "description": "Password must be at least 6 characters"
+  },
+  "registration": "Registration",
+  "@registration": {
+    "description": "Title for the registration page"
+  },
+  "errorTitle": "Error",
+  "@errorTitle": {
+    "description": "Generic title for error dialogs"
+  },
+  "email": "Email",
+  "@email": {
+    "description": "Label for email input field"
+  },
+  "enterEmail": "Enter your email",
+  "@enterEmail": {
+    "description": "Hint text for email input field"
+  },
+  "firstName": "First name",
+  "@firstName": {
+    "description": "Label for first name input field"
+  },
+  "enterFirstName": "Enter your first name",
+  "@enterFirstName": {
+    "description": "Hint text for first name input field"
+  },
+  "lastName": "Last name",
+  "@lastName": {
+    "description": "Label for last name input field"
+  },
+  "enterLastName": "Enter your last name",
+  "@enterLastName": {
+    "description": "Hint text for last name input field"
+  },
+  "confirmPassword": "Confirm password",
+  "@confirmPassword": {
+    "description": "Label for confirm password input field"
+  },
+  "repeatPassword": "Repeat password",
+  "@repeatPassword": {
+    "description": "Hint text for confirm password input field"
+  },
+  "passwordsDoNotMatch": "Passwords do not match",
+  "@passwordsDoNotMatch": {
+    "description": "Displayed when the passwords entered do not match"
+  },
+  "pleaseEnterField": "Please enter {field}",
+  "@pleaseEnterField": {
+    "description": "Displayed when a required field is empty",
+    "placeholders": {
+      "field": {
+        "type": "String",
+        "example": "Email"
+      }
+    }
+  },
+  "loginAlreadyExists": "Login is already taken. Please choose another.",
+  "@loginAlreadyExists": {
+    "description": "Displayed when the login already exists"
+  },
+  "emailAlreadyExists": "Email is already in use.",
+  "@emailAlreadyExists": {
+    "description": "Displayed when the email is already registered"
+  },
+  "registrationSuccessful": "Registration successful!",
+  "@registrationSuccessful": {
+    "description": "Displayed when registration completes successfully"
+  },
+  "pleaseConfirmEmail": "Please confirm your email to complete registration.",
+  "@pleaseConfirmEmail": {
+    "description": "Displayed after successful registration requiring email confirmation"
+  },
+  "registrationError": "Registration error",
+  "@registrationError": {
+    "description": "Displayed in case of any error during registration"
+  },
+  "registrationErrorWithDetails": "Registration error: {error}",
+  "@registrationErrorWithDetails": {
+    "description": "Displayed when a registration error occurs with details",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Network timeout"
+      }
+    }
+  },
+  "somethingWentWrong": "Something went wrong. Please try again later.",
+  "@somethingWentWrong": {
+    "description": "Displayed for unexpected errors"
+  },
+  "emailAlreadyRegistered": "This email is already registered.",
+  "@emailAlreadyRegistered": {
+    "description": "Displayed when trying to register an already registered email"
+  },
+  "invalidEmailFormat": "Invalid email format.",
+  "@invalidEmailFormat": {
+    "description": "Displayed when an invalid email is entered"
+  },
+  "weakPassword": "Password is too weak.",
+  "@weakPassword": {
+    "description": "Displayed when the password does not meet security requirements"
+  },
+  "signUp": "Sign up",
+  "@signUp": {
+    "description": "Button text for registration"
+  },
+  "aboutMe": "About me",
+  "@aboutMe": {
+    "description": "aboutme"
+  },
+  "organization": "Organization",
+  "@organization": {
+    "description": "Organization"
+  },
+  "phone": "Phone",
+  "@phone": {
+    "description": "Phone number"
+  },
+  "social": "Social",
+  "@social": {
+    "description": "Social"
+  },
+  "friends_login": "Login",
+  "@friends_login": {
+    "description": "Login"
+  },
+  "enterLoginHint": "Enter friend's login here",
+  "@enterLoginHint": {
+    "description": "Enter friend's login here"
+  },
+  "errorSendingRequest": "Error sending request",
+  "@errorSendingRequest": {
+    "description": "Generic message when adding fails"
+  },
+  "confirmAddFriendTitle": "Add as friend?",
+  "@confirmAddFriendTitle": {
+    "description": "Dialog title for confirming addition"
+  },
+  "confirmAddFriendContent": "Add user @{login} as friend?",
+  "@confirmAddFriendContent": {
+    "description": "Dialog content with username",
+    "placeholders": {
+      "login": {
+        "type": "String",
+        "example": "john_doe"
+      }
+    }
+  },
+  "friendRequestCancelled": "Request cancelled",
+  "@friendRequestCancelled": {
+    "description": "Notification after cancelling request"
+  },
+  "friendRequestCancelError": "Error cancelling: {error}",
+  "@friendRequestCancelError": {
+    "description": "Error message with error detail",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Network timeout"
+      }
+    }
+  },
+  "usersNotFound": "Users not found",
+  "@usersNotFound": {
+    "description": "Message displayed when no users are found in search results"
+  },
+  "friendRequestSendingError": "Error sending request: {error}",
+  "@friendRequestSendingError": {
+    "description": "Displayed when sending a friend request fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "TimeoutException"
+      }
+    }
+  },
+  "usersWasDelete": "You'r friend deleted",
+  "@usersWasDelete": {
+    "description": "Сообщение, отображаемое при удалении друга"
+  },
+  "removeFriend": "Remove friend",
+  "@removeFriend": {
+    "description": "Кнопка, отображаемое при удалении друга"
+  },
+  "friendProfile": "Frind's profile",
+  "@friendProfile": {
+    "description": "Frind's profile"
+  },
+  "userIdMissingError": "Friend's ID is missed",
+  "@userIdMissingError": {
+    "description": "Friend's ID is missed"
+  },
+  "noFriendsYet": "You aren't have any friends yet",
+  "@noFriendsYet": {
+    "description": "You aren't have any friends yet"
+  },
+  "noIncomingRequests": "No incoming requests",
+  "@noIncomingRequests": {
+    "description": "No incoming requests"
+  },
+  "noOutgoingRequests": "No outgoing requests",
+  "@noOutgoingRequests": {
+    "description": "No outgoing requests"
+  },
+  "sharedTasksTitle": "Shared tasks title",
+  "@sharedTasksTitle": {
+    "description": "sharedTasksTitle"
+  },
+  "invalidPhoneNumber": "Please enter a valid phone number",
+  "@invalidPhoneNumber": {
+    "description": "Error message shown when phone number is invalid"
+  },
+  "invalidPhoneFormat": "Invalid phone number format",
+  "@invalidPhoneFormat": {
+    "description": "Error message shown when phone number format is invalid"
+  },
+  "usernameFormatRestriction": "Only English letters,\nnumbers and the \"_\" symbol",
+  "@usernameFormatRestriction": {
+    "description": "Username format restriction"
+  },
+  "usernameFormatHint": "Username may only contain English letters, digits and the underscore character",
+  "@usernameFormatHint": {
+    "description": "Hint for allowed username format"
+  },
+  "invalidCharactersDetected": "Invalid characters detected in the input",
+  "@invalidCharactersDetected": {
+    "description": "Error message shown when user enters forbidden characters"
+  },
+  "loginMinLength": "Username must be at least 4 characters long",
+  "@loginMinLength": {
+    "description": "Validation error — username is too short"
+  },
+  "loginMaxLength": "Username must not exceed 15 characters",
+  "@loginMaxLength": {
+    "description": "Validation error — username is too long"
+  },
+  "optionalField": "Optional field",
+  "@optionalField": {
+    "description": "Label for optional form field"
+  },
+  "onlyLetters": "Only letters allowed",
+  "@onlyLetters": {
+    "description": "Error: field must contain only letters"
+  },
+  "profileEditTitle": "Edit Profile",
+  "@profileEditTitle": {
+    "description": "Title of the profile editing screen"
+  },
+  "profileUpdated": "Profile successfully updated",
+  "@profileUpdated": {
+    "description": "Notification that profile was updated successfully"
+  },
+  "profileUpdateError": "Profile update error: {error}",
+  "@profileUpdateError": {
+    "description": "Error when updating profile",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Network error"
+      }
+    }
+  },
+  "fieldCannotBeOnlySpaces": "Field cannot contain only spaces",
+  "@fieldCannotBeOnlySpaces": {
+    "description": "Error when field contains only whitespace"
+  },
+  "fieldOnlyLetters": "{fieldName} can contain only letters",
+  "@fieldOnlyLetters": {
+    "description": "Field letter-only validation error",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "First Name"
+      }
+    }
+  },
+  "fieldRequired": "{fieldName} cannot be empty",
+  "@fieldRequired": {
+    "description": "Field is required",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "Last Name"
+      }
+    }
+  },
+  "note": "Note",
+  "@note": {
+    "description": "Element type — note"
+  },
+  "header": "Header",
+  "@header": {
+    "description": "Element type — header"
+  },
+  "checklist": "Check list",
+  "@checklist": {
+    "description": "Element type — checklist"
+  },
+  "noPermission": "Can't do this",
+  "@noPermission": {
+    "description": "Сообщение пользователю, что у него нет прав добавлять элементы"
+  },
+  "fullName": "Dmitry Kamkov",
+  "@fullName": {
+    "description": "Full name of the student"
+  },
+  "universityShort": "UrTISI SibGUTI, PE-12b\nDepartment of IST",
+  "@universityShort": {
+    "description": "Short info about university and department"
+  },
+  "universityFull": "Student of UrTISI SibGUTI\nSpecialty: Software for Autonomous and Computing Systems\nGroup: PE-12b\nDepartment of IST",
+  "@universityFull": {
+    "description": "Full academic background description"
+  },
+  "hobbyTitle": "Hobby",
+  "@hobbyTitle": {
+    "description": "Title for the hobbies section"
+  },
+  "hobbyFigureSkating": "Figure\nskating",
+  "@hobbyFigureSkating": {},
+  "hobbySnowboard": "Snowboard",
+  "@hobbySnowboard": {},
+  "hobbyWakeboard": "Wakeboard",
+  "@hobbyWakeboard": {},
+  "hobbyFootball": "Football",
+  "@hobbyFootball": {},
+  "quoteTitle": "Quote",
+  "@quoteTitle": {
+    "description": "Title for the motivational quote section"
+  },
+  "quoteText": "Where others see a limit — I seek a path beyond.",
+  "@quoteText": {
+    "description": "Personal quote"
+  },
+  "contactsTitle": "Contacts",
+  "@contactsTitle": {
+    "description": "Title for contacts section"
+  },
+  "takePhoto": "Take a photo",
+  "@takePhoto": {},
+  "chooseFromGallery": "Choose from gallery",
+  "@chooseFromGallery": {},
+  "avatarRemoveSuccess": "Avatar successfully removed",
+  "@avatarRemoveSuccess": {
+    "description": "Displayed when avatar is removed successfully"
+  },
+  "avatarRemoveError": "Error removing avatar: {error}",
+  "@avatarRemoveError": {
+    "description": "Error message when avatar removal fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Network issue"
+      }
+    }
+  },
+  "removeAvatar": "Remove avatar",
+  "@removeAvatar": {
+    "description": "Button or action label for removing avatar"
+  },
+  "confirmRemoveAvatar": "Are you sure you want to remove your avatar?",
+  "@confirmRemoveAvatar": {
+    "description": "Confirmation message shown before avatar removal"
+  },
+  "removeAvatarConfirmation": "Confirm Avatar Removal",
+  "@removeAvatarConfirmation": {
+    "description": "Title of dialog confirming avatar removal"
+  },
+  "remove": "Remove",
+  "@remove": {
+    "description": "General remove button label"
+  },
+  "avatarRemoved": "Avatar removed",
+  "@avatarRemoved": {
+    "description": "Short message shown when the avatar has been removed"
+  },
+  "exampleFormat": "Example format",
+  "@exampleFormat": {
+    "description": "Label used to indicate an example input format, e.g. for phone or date"
+  },
+  "exampleNumber": "Example number",
+  "@exampleNumber": {
+    "description": "Placeholder or label showing a sample number format"
+  },
+  "exampleFormatWithNumber": "Example format: {number}",
+  "@exampleFormatWithNumber": {
+    "description": "Label used to show an example format with a dynamic phone or data number",
+    "placeholders": {
+      "number": {
+        "type": "String",
+        "example": "+1 234 567 890"
+      }
+    }
+  },
+  "roleUpdateError": "Error updating role: {error}",
+  "@roleUpdateError": {
+    "description": "Error shown when a user role update fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "User not found"
+      }
+    }
+  },
+  "cannotAddCreatorAsMember": "Cannot add task creator as a member",
+  "@cannotAddCreatorAsMember": {
+    "description": "Error message when trying to add task creator as member"
+  },
+  "roleChangedLimitedAccess": "Your role has changed, some features are no longer available",
+  "@roleChangedLimitedAccess": {
+    "description": "Info message after user role is downgraded"
+  },
+  "updatingPositions": "Updating positions",
+  "@updatingPositions": {
+    "description": "Info message"
+  },
+  "changePassword": "Change Password",
+  "@changePassword": {
+    "description": "Title or button text for changing the user's password"
+  },
+  "currentPassword": "Current Password",
+  "@currentPassword": {
+    "description": "Label for current password input field"
+  },
+  "newPassword": "New Password",
+  "@newPassword": {
+    "description": "Label for new password input field"
+  },
+  "confirmNewPassword": "Confirm New Password",
+  "@confirmNewPassword": {
+    "description": "Label for confirming the new password"
+  },
+  "enterCurrentPassword": "Please enter your current password",
+  "@enterCurrentPassword": {
+    "description": "Validation error when current password is missing"
+  },
+  "enterNewPassword": "Please enter your new password",
+  "@enterNewPassword": {
+    "description": "Validation error when new password is missing"
+  },
+  "confirmYourPassword": "Please confirm your new password",
+  "@confirmYourPassword": {
+    "description": "Validation error when confirm password is missing"
+  },
+  "passwordChanged": "Password successfully changed",
+  "@passwordChanged": {
+    "description": "Success message when password is updated"
+  },
+  "incorrectCurrentPassword": "Current password is incorrect",
+  "@incorrectCurrentPassword": {
+    "description": "Error message when the entered current password is wrong"
+  },
+  "failedToUpdatePassword": "Failed to update password: {error}",
+  "@failedToUpdatePassword": {
+    "description": "Shown when there is an error while changing the password",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Network error"
+      }
+    }
+  },
+  "newPasswordSameAsOld": "New password cannot be the same as the old one",
+  "@newPasswordSameAsOld": {
+    "description": "Shown when the user enters a new password identical to the current one"
+  },
+  "passwordChangeSuccess": "Password changed successfully",
+  "@passwordChangeSuccess": {
+    "description": "Shown when the password was changed successfully"
+  },
+  "backToSignIn": "Back to Sign In",
+  "@backToSignIn": {
+    "description": "Button to return to the sign-in screen"
+  },
+  "checkYourEmail": "Check your email",
+  "@checkYourEmail": {
+    "description": "Title shown after sending a reset link"
+  },
+  "sendResetLink": "Send Reset Link",
+  "@sendResetLink": {
+    "description": "Button text to send a password reset email"
+  },
+  "resetPasswordInstructions": "Enter your login and we'll send you a link to reset your password.",
+  "@resetPasswordInstructions": {
+    "description": "Instructional text for password reset"
+  },
+  "resetPassword": "Reset Password",
+  "@resetPassword": {
+    "description": "Title for the reset password screen"
+  },
+  "forgotPassword": "Forgot Password?",
+  "@forgotPassword": {
+    "description": "Link to start the password reset process"
+  },
+  "passwordResetError": "An error occurred while resetting your password",
+  "@passwordResetError": {
+    "description": "Error shown if password reset fails"
+  },
+  "passwordResetEmailSent": "A password reset link has been sent to your email.",
+  "@passwordResetEmailSent": {
+    "description": "Message shown after successful sending of reset link"
+  },
+  "success": "Success",
+  "@success": {
+    "description": "Generic success message"
+  },
+  "updatePassword": "Update Password",
+  "@updatePassword": {
+    "description": "Button or title for updating the password"
+  },
+  "createNewPasswordInstructions": "Create a new password for your account.",
+  "@createNewPasswordInstructions": {
+    "description": "Instructional text when resetting password after email verification"
+  },
+  "createNewPassword": "Create New Password",
+  "@createNewPassword": {
+    "description": "Title for creating a new password"
+  },
+  "passwordHasBeenReset": "Your password has been reset.",
+  "@passwordHasBeenReset": {
+    "description": "Message shown after successful password reset"
+  },
+  "passwordResetSuccess": "Password reset successful",
+  "@passwordResetSuccess": {
+    "description": "Generic success message for password reset completion"
+  },
+  "sessionExpired": "Session Expired",
+  "@sessionExpired": {
+    "description": "Title shown when user session has expired"
+  },
+  "sessionExpiredMessage": "Your session has expired. Please sign in again.",
+  "@sessionExpiredMessage": {
+    "description": "Message shown when the user's session has expired"
+  },
+  "tryAgain": "Try Again",
+  "@tryAgain": {
+    "description": "Button text prompting the user to retry an action"
+  },
+  "assignParticipant": "Assign Participant",
+  "@assignParticipant": {
+    "description": "Button or title for assigning a participant to a task"
+  },
+  "invalidCharactersError": "The value contains invalid characters",
+  "@invalidCharactersError": {
+    "description": "Error message shown when the input value contains disallowed characters"
+  },
+  "missingRecoveryParamsTitle": "Missing Parameters",
+  "missingRecoveryParamsMessage": "Recovery token or email is missing. Please use the link from the reset password email.",
+  "@missingRecoveryParamsTitle": {
+    "description": "Title for the error dialog when recovery token/email is missing"
+  },
+  "@missingRecoveryParamsMessage": {
+    "description": "Message explaining that the recovery parameters are missing and should be accessed via the reset email"
+  },
+  "resetLimitExceeded": "Request Limit Exceeded",
+  "resetLimitExceededMessage": "You have exceeded the password reset request limit (5 requests per hour).",
+  "waitBeforeNextAttempt": "Please wait {time} before trying again.",
+  "remainingAttempts": "Remaining attempts: {attempts} out of 5",
+  "nextAttemptAvailable": "Next attempt available in: {time}",
+  "resetEmailLimitNotice": "Note: You can request a password reset email no more than 5 times per hour.",
+  "@waitBeforeNextAttempt": {
+    "description": "Message informing the user to wait before retrying",
+    "placeholders": {
+      "time": {
+        "type": "String",
+        "example": "15 minutes"
+      }
+    }
+  },
+  "@remainingAttempts": {
+    "description": "Message indicating the number of remaining attempts",
+    "placeholders": {
+      "attempts": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "@nextAttemptAvailable": {
+    "description": "Message indicating when the next attempt is available",
+    "placeholders": {
+      "time": {
+        "type": "String",
+        "example": "45 minutes"
+      }
+    }
+  },
+  "notAssigned": "Not assigned",
+  "@notAssigned": {
+    "description": "Status of an item that has not yet been assigned"
+  },
+  "hidePassword": "Hide password",
+  "@hidePassword": {
+    "description": "Tooltip or button for hiding the password"
+  },
+  "showPassword": "Show password",
+  "@showPassword": {
+    "description": "Tooltip or button for showing the password"
+  },
+  "tapToViewProfile": "Tap to view profile",
+  "@tapToViewProfile": {
+    "description": ""
+  },
+  "accept": "Accept",
+  "@accept": {
+    "description": "Button to accept a request or action"
+  },
+  "reject": "Reject",
+  "@reject": {
+    "description": "Button to reject a request or action"
+  },
+  "cancelRequest": "Cancel request",
+  "@cancelRequest": {
+    "description": "Button to cancel a sent request"
+  },
+  "processing": "Processing",
+  "@processing": {
+    "description": "Status or message indicating an action is in progress"
+  },
+  "minutes1": "minutes",
+  "@minutes1": {
+    "description": "Статус или сообщение, обозначающее, что действие в процессе"
+  },
+  "minutes": "minutes",
+  "@minutes": {
+    "description": "Статус или сообщение, обозначающее, что действие в процессе"
+  },
+  "minute": "minute",
+  "@minute": {
+    "description": "Статус или сообщение, обозначающее, что действие в процессе"
+  },
+  "neconds1": "neconds",
+  "@neconds1": {
+    "description": "Статус или сообщение, обозначающее, что действие в процессе"
+  },
+  "seconds": "neconds",
+  "@seconds": {
+    "description": "Статус или сообщение, обозначающее, что действие в процессе"
+  },
+  "second": "necond",
+  "@second": {
+    "description": "Статус или сообщение, обозначающее, что действие в процессе"
+  }
+}
