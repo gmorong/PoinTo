@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-// Создаем StateNotifier вместо простого StateProvider
 class LocaleNotifier extends StateNotifier<AsyncValue<Locale>> {
   LocaleNotifier() : super(const AsyncValue.loading()) {
     _loadLocale();
@@ -21,7 +20,7 @@ class LocaleNotifier extends StateNotifier<AsyncValue<Locale>> {
   }
 }
 
-// Провайдер
-final localeProvider = StateNotifierProvider<LocaleNotifier, AsyncValue<Locale>>((ref) {
+final localeProvider =
+    StateNotifierProvider<LocaleNotifier, AsyncValue<Locale>>((ref) {
   return LocaleNotifier();
 });

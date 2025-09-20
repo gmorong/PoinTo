@@ -11,25 +11,25 @@ class ChangePasswordPage extends StatefulWidget {
 
 class _ChangePasswordPageState extends State<ChangePasswordPage> {
   final _formKey = GlobalKey<FormState>();
-  
+
   // Контроллеры для полей
   final _currentPasswordController = TextEditingController();
   final _newPasswordController = TextEditingController();
   final _confirmPasswordController = TextEditingController();
-  
+
   // Фокус-ноды для управления фокусом
   final _currentPasswordFocusNode = FocusNode();
   final _newPasswordFocusNode = FocusNode();
   final _confirmPasswordFocusNode = FocusNode();
-  
+
   // Состояния видимости паролей
   bool _isCurrentPasswordVisible = false;
   bool _isNewPasswordVisible = false;
   bool _isConfirmPasswordVisible = false;
-  
+
   // Флаг загрузки
   bool _isLoading = false;
-  
+
   final SupabaseClient supabase = Supabase.instance.client;
 
   @override
@@ -51,47 +51,41 @@ class _ChangePasswordPageState extends State<ChangePasswordPage> {
     });
 
     try {
-      // Получаем текущий email пользователя
       final user = Supabase.instance.client.auth.currentUser;
       if (user == null || user.email == null) {
         throw Exception(AppLocalizations.of(context)!.userNotFound);
       }
 
-      // Сначала проверяем текущий пароль, выполнив повторный вход
       final response = await Supabase.instance.client.auth.signInWithPassword(
         email: user.email!,
         password: _currentPasswordController.text,
       );
 
-      // Проверяем наличие пользователя в ответе
       if (response.session == null || response.user == null) {
         throw Exception(AppLocalizations.of(context)!.incorrectCurrentPassword);
       }
 
-      // Меняем пароль
       final updateResponse = await Supabase.instance.client.auth.updateUser(
         UserAttributes(
           password: _newPasswordController.text,
         ),
       );
 
-      // Проверяем успешность обновления пароля
       if (updateResponse.user == null) {
         throw Exception(AppLocalizations.of(context)!.failedToUpdatePassword);
       }
 
-      // Показываем сообщение об успехе
       _showInfoDialog(
         AppLocalizations.of(context)!.passwordChangeSuccess,
         AppLocalizations.of(context)!.passwordChanged,
       );
 
-      // Возвращаемся на предыдущий экран после закрытия диалога
       Future.delayed(const Duration(seconds: 1), () {
         Navigator.of(context).pop();
       });
     } on AuthException catch (e) {
-      String errorMessage = AppLocalizations.of(context)!.errorWithDetails(e.message);
+      String errorMessage =
+          AppLocalizations.of(context)!.errorWithDetails(e.message);
       if (e.message.contains('weak password')) {
         errorMessage = AppLocalizations.of(context)!.weakPassword;
       }
@@ -180,7 +174,8 @@ class _ChangePasswordPageState extends State<ChangePasswordPage> {
                       isVisible: _isCurrentPasswordVisible,
                       onToggle: () {
                         setState(() {
-                          _isCurrentPasswordVisible = !_isCurrentPasswordVisible;
+                          _isCurrentPasswordVisible =
+                              !_isCurrentPasswordVisible;
                         });
                       },
                       focusNode: _currentPasswordFocusNode,
@@ -195,7 +190,7 @@ class _ChangePasswordPageState extends State<ChangePasswordPage> {
                       },
                     ),
                     _gap(),
-                    
+
                     // Новый пароль
                     _buildPasswordField(
                       _newPasswordController,
@@ -219,13 +214,14 @@ class _ChangePasswordPageState extends State<ChangePasswordPage> {
                           return AppLocalizations.of(context)!.passwordTooShort;
                         }
                         if (value == _currentPasswordController.text) {
-                          return AppLocalizations.of(context)!.newPasswordSameAsOld;
+                          return AppLocalizations.of(context)!
+                              .newPasswordSameAsOld;
                         }
                         return null;
                       },
                     ),
                     _gap(),
-                    
+
                     // Подтверждение нового пароля
                     _buildPasswordField(
                       _confirmPasswordController,
@@ -234,7 +230,8 @@ class _ChangePasswordPageState extends State<ChangePasswordPage> {
                       isVisible: _isConfirmPasswordVisible,
                       onToggle: () {
                         setState(() {
-                          _isConfirmPasswordVisible = !_isConfirmPasswordVisible;
+                          _isConfirmPasswordVisible =
+                              !_isConfirmPasswordVisible;
                         });
                       },
                       focusNode: _confirmPasswordFocusNode,
@@ -246,34 +243,36 @@ class _ChangePasswordPageState extends State<ChangePasswordPage> {
                           );
                         }
                         if (value != _newPasswordController.text) {
-                          return AppLocalizations.of(context)!.passwordsDoNotMatch;
+                          return AppLocalizations.of(context)!
+                              .passwordsDoNotMatch;
                         }
                         return null;
                       },
                     ),
                     _gap(),
-                    
+
                     // Кнопка смены пароля
                     SizedBox(
                       width: double.infinity,
                       child: ElevatedButton(
-                        onPressed: _isLoading 
-                            ? null 
+                        onPressed: _isLoading
+                            ? null
                             : () {
-                                if (_formKey.currentState?.validate() ?? false) {
+                                if (_formKey.currentState?.validate() ??
+                                    false) {
                                   _changePassword();
                                 }
                               },
                         child: Padding(
                           padding: const EdgeInsets.all(12.0),
                           child: _isLoading
-                              ? const CircularProgressIndicator(color: Colors.white)
+                              ? const CircularProgressIndicator(
+                                  color: Colors.white)
                               : Text(
                                   AppLocalizations.of(context)!.changePassword,
                                   style: const TextStyle(
-                                    fontSize: 16, 
-                                    fontWeight: FontWeight.bold
-                                  ),
+                                      fontSize: 16,
+                                      fontWeight: FontWeight.bold),
                                 ),
                         ),
                       ),
@@ -289,22 +288,21 @@ class _ChangePasswordPageState extends State<ChangePasswordPage> {
   }
 
   Widget _buildPasswordField(
-    TextEditingController controller, 
-    String label, 
-    String hint,
-    {
-      required bool isVisible,
-      required VoidCallback onToggle,
-      required FocusNode focusNode,
-      FocusNode? nextFocusNode,
-      required String? Function(String?) validator,
-    }
-  ) {
+    TextEditingController controller,
+    String label,
+    String hint, {
+    required bool isVisible,
+    required VoidCallback onToggle,
+    required FocusNode focusNode,
+    FocusNode? nextFocusNode,
+    required String? Function(String?) validator,
+  }) {
     return TextFormField(
       controller: controller,
       focusNode: focusNode,
       obscureText: !isVisible,
-      textInputAction: nextFocusNode != null ? TextInputAction.next : TextInputAction.done,
+      textInputAction:
+          nextFocusNode != null ? TextInputAction.next : TextInputAction.done,
       onFieldSubmitted: (_) {
         if (nextFocusNode != null) {
           FocusScope.of(context).requestFocus(nextFocusNode);
