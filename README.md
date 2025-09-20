@@ -34,7 +34,7 @@ PoinTo - это современное приложение для управл�
 
 | Главная | Профиль | Настройки |
 |:---:|:---:|:---:|
-| ![Main Screen](./demonstration/main.mp4) | ![Projects](./demonstration/profile.mp4) | ![Tasks](./demonstration/settings.mp4) |
+| ![Main Screen](./demonstration/main.gif) | ![Projects](./demonstration/profile.gif) | ![Tasks](./demonstration/settings.gif) |
 
 *Записи с iPhone - оригинальное соотношение сторон сохранено*
 
